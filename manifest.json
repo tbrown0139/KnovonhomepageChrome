@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "name": "Knovon Home Page",
+  "version": "1.0",
+  "description": "Set Knovon as the homepage and startup page.",
+  "chrome_settings_overrides": {
+    "homepage": "https://mytab.knovon.org",
+    "startup_pages": [
+      "https://mytab.knovon.org"
+    ]
+  },
+  "permissions": [
+    "settings"
+  ]
+}
